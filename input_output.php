@@ -60,8 +60,6 @@ if (isset($_POST['nickname'])) {
     $nickname = $_POST['nickname'];
 }
 
-var_dump($name);
-
 // Display either the submitted value or a missing-value message
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
